@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: main
+keyAuth: false
+password: gcpkms:P1nhqVpdQ_O5L9OUy5GvAA
+url: https://github.com/FlyHomes/harness-cd-configuration
+urlType: REPO
+username: francisco-caylent
