@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: ECR
+imageName: dev-flyhomes
+region: us-west-2
+serverName: Amazon Web Services

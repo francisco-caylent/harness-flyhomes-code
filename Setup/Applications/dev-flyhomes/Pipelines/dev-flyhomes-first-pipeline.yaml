@@ -1,0 +1,11 @@
+harnessApiVersion: '1.0'
+type: PIPELINE
+description: dev-flyhomes-first-pipeline
+pipelineStages:
+- type: ENV_STATE
+  name: dev-flyhomes-CD
+  parallel: false
+  skipCondition:
+    type: DO_NOT_SKIP
+  stageName: STAGE 1
+  workflowName: dev-flyhomes-CD
